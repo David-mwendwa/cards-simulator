@@ -2,7 +2,7 @@ package main
 
 
 func main() {
-	cards := newDeckFromFile("my_crds")
-	cards.print()
-	
+	cards := newDeck()
+	cards.shuffle()
+	cards.print()	
 }
